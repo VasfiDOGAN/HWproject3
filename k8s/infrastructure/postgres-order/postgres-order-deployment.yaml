@@ -29,7 +29,7 @@ spec:
               value: password
             - name: POSTGRES_USER
               value: ptechie
-          image: postgres
+          image: postgres:14-alpine
           name: postgres-order
           ports:
             - containerPort: 5431
